@@ -15,6 +15,13 @@
 		CD6053E61C1D9581007E070C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6053E41C1D9581007E070C /* LaunchScreen.storyboard */; };
 		CD6053F11C1D9581007E070C /* IntroductionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6053F01C1D9581007E070C /* IntroductionViewTests.m */; };
 		CD6053FC1C1D9581007E070C /* IntroductionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6053FB1C1D9581007E070C /* IntroductionViewUITests.m */; };
+		CD6057081C1D95C2007E070C /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6057051C1D95C2007E070C /* EAIntroPage.m */; };
+		CD6057091C1D95C2007E070C /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6057071C1D95C2007E070C /* EAIntroView.m */; };
+		CD60570C1C1D95DA007E070C /* EARestrictedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60570B1C1D95DA007E070C /* EARestrictedScrollView.m */; };
+		CD6057121C1D971C007E070C /* lastguidebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD60570E1C1D971C007E070C /* lastguidebtn.png */; };
+		CD6057131C1D971C007E070C /* guide1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD60570F1C1D971C007E070C /* guide1.png */; };
+		CD6057141C1D971C007E070C /* guide2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6057101C1D971C007E070C /* guide2.png */; };
+		CD6057151C1D971C007E070C /* guide3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6057111C1D971C007E070C /* guide3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		CD6053F71C1D9581007E070C /* IntroductionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroductionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6053FB1C1D9581007E070C /* IntroductionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewUITests.m; sourceTree = "<group>"; };
 		CD6053FD1C1D9581007E070C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6057041C1D95C2007E070C /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		CD6057051C1D95C2007E070C /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		CD6057061C1D95C2007E070C /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		CD6057071C1D95C2007E070C /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		CD60570A1C1D95DA007E070C /* EARestrictedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EARestrictedScrollView.h; sourceTree = "<group>"; };
+		CD60570B1C1D95DA007E070C /* EARestrictedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EARestrictedScrollView.m; sourceTree = "<group>"; };
+		CD60570E1C1D971C007E070C /* lastguidebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lastguidebtn.png; sourceTree = "<group>"; };
+		CD60570F1C1D971C007E070C /* guide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide1.png; sourceTree = "<group>"; };
+		CD6057101C1D971C007E070C /* guide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide2.png; sourceTree = "<group>"; };
+		CD6057111C1D971C007E070C /* guide3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		CD6053D51C1D9581007E070C /* IntroductionView */ = {
 			isa = PBXGroup;
 			children = (
+				CD6057031C1D95C2007E070C /* EAIntroView */,
 				CD6053D91C1D9581007E070C /* AppDelegate.h */,
 				CD6053DA1C1D9581007E070C /* AppDelegate.m */,
 				CD6053DC1C1D9581007E070C /* ViewController.h */,
@@ -138,6 +156,23 @@
 				CD6053FD1C1D9581007E070C /* Info.plist */,
 			);
 			path = IntroductionViewUITests;
+			sourceTree = "<group>";
+		};
+		CD6057031C1D95C2007E070C /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				CD60570E1C1D971C007E070C /* lastguidebtn.png */,
+				CD60570F1C1D971C007E070C /* guide1.png */,
+				CD6057101C1D971C007E070C /* guide2.png */,
+				CD6057111C1D971C007E070C /* guide3.png */,
+				CD60570A1C1D95DA007E070C /* EARestrictedScrollView.h */,
+				CD60570B1C1D95DA007E070C /* EARestrictedScrollView.m */,
+				CD6057041C1D95C2007E070C /* EAIntroPage.h */,
+				CD6057051C1D95C2007E070C /* EAIntroPage.m */,
+				CD6057061C1D95C2007E070C /* EAIntroView.h */,
+				CD6057071C1D95C2007E070C /* EAIntroView.m */,
+			);
+			path = EAIntroView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6057131C1D971C007E070C /* guide1.png in Resources */,
+				CD6057141C1D971C007E070C /* guide2.png in Resources */,
 				CD6053E61C1D9581007E070C /* LaunchScreen.storyboard in Resources */,
+				CD6057121C1D971C007E070C /* lastguidebtn.png in Resources */,
 				CD6053E31C1D9581007E070C /* Assets.xcassets in Resources */,
+				CD6057151C1D971C007E070C /* guide3.png in Resources */,
 				CD6053E11C1D9581007E070C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +312,9 @@
 				CD6053DE1C1D9581007E070C /* ViewController.m in Sources */,
 				CD6053DB1C1D9581007E070C /* AppDelegate.m in Sources */,
 				CD6053D81C1D9581007E070C /* main.m in Sources */,
+				CD6057081C1D95C2007E070C /* EAIntroPage.m in Sources */,
+				CD60570C1C1D95DA007E070C /* EARestrictedScrollView.m in Sources */,
+				CD6057091C1D95C2007E070C /* EAIntroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
